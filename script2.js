@@ -1,17 +1,25 @@
 let num = 266219;
 let number = String(num);
 let sum = 1;
-// let num2 = number.split(/(\d)/);
-// console.log(num2);
 
 
-// var myString = 'Привет 1 мир. Предложение номер 2.';
-// var splits = myString.split(/(\d)/);
 
-// console.log(splits);
-for(let i=0; i<6; i++){
+for(let i = 0; i < number.length; i++){
 
  sum = sum* number[i]
   
   console.log(sum);
 }
+
+// let degree = 0;
+// let b = 3;
+// degree = (sum ** b);
+let squared = 3 ** 2; // 9
+ 
+//  num = 3;
+num **= 2;
+console.log(num);
+
+let screen = String(num).slice(0,2);
+
+alert(screen);
