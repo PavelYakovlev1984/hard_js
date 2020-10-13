@@ -11,12 +11,10 @@ for(let i = 0; i < number.length; i++){
   console.log(sum);
 }
 
-// let degree = 0;
-// let b = 3;
-// degree = (sum ** b);
-let squared = 3 ** 2; // 9
+
+
  
-//  num = 3;
+
 num **= 2;
 console.log(num);
 
